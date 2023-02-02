@@ -25,9 +25,7 @@ a {
     color: black;
     font-weight: 800;
 }
-img {
-    height: 32px;
-}
+
 .search, .play {
     margin-top: 15px;
     display: flex;
@@ -39,6 +37,11 @@ img {
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: rgb(202, 218, 230);
+    font-size: 2rem;
+   
+}
+.search1 {
+    color: red;
 }
 .search:hover {
     height: 60px;
@@ -73,6 +76,8 @@ img {
 height: 80px;
 width: 80px;
 margin-top: 0;
+font-size: 3rem;
+color: blue;
   }
 .end {
     border: solid rgb(185, 182, 182) 0.5px;
