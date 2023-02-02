@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 400px;
-    height: 600px;
+    height: 650px;
     border-radius: 10px;
     background-color: rgb(224, 232, 235);
     align-items: center;
@@ -23,7 +23,7 @@ body {
 a {
     text-decoration: none;
     color: black;
-    font-weight:bolder;
+    font-weight: 800;
 }
 img {
     height: 32px;
@@ -64,7 +64,7 @@ img {
   }
   p {
     font-size: 1.2rem;
-   
+    font-weight: 600;
   }
   nav {
     margin-top: 25px;
@@ -76,10 +76,10 @@ margin-top: 0;
   }
 .end {
     border: solid rgb(185, 182, 182) 0.5px;
-    margin-top: 15px;
+    margin-top: 20px;
     height: 10px;
     width: 250px;
     background: linear-gradient(to top, #1516173a, #dee4f00f);
     border-radius: 30px;
 }
-  
+ 
