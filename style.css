@@ -1,0 +1,110 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(220, 221, 221);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+    background-color: rgb(220, 221, 221);
+    align-items: center;
+    margin-left: 35%;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.search {
+    margin-top: 15px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    align-items : center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(215, 218, 220);
+    font-size: 2rem;
+   
+}
+.search1 {
+    color: red;
+}
+.search:hover {
+    height: 60px;
+    width: 60px;
+    transition: 2s;
+    background-color: #bcc3cd;
+}
+.bild {
+    margin-top: 40px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+   justify-self: center;
+   box-shadow: rgba(0, 0, 0, 0.574) 0px 19px 38px, rgba(0, 0, 0, 0.442) 0px 15px 12px;
+    
+ }
+  p {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+.end {
+    border: solid rgb(185, 182, 182) 0.5px;
+    margin-top: 50px;
+    height: 5px;
+    width: 250px;
+    background: linear-gradient(to top, #1516173a, #dee4f00f);
+    border-radius: 30px;
+}
+ 
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.controls i {
+    margin-top: 15px;
+    margin-right: 40px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    align-items : center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(215, 216, 220);
+    font-size: 2rem;
+  }
+
+.progress {
+  width: 60%;
+  height: 10px;
+  background-color: rgb(164, 160, 160);
+  margin-right: 5px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.bar {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(3, 66, 255);
+  border-radius: 30px;
+}
