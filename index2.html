@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="     crossorigin="anonymous"      referrerpolicy="no-referrer"/>
+</head>
+<body>
+<style>
+ #music-player {
+  width: 300px;
+  height: 150px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.album-cover {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 20px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.album-cover img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.artist {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.controls i {
+  font-size: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.progress {
+  width: 60%;
+  height: 5px;
+  background-color: #444;
+  margin-right: 5px;
+}
+
+.bar {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+}
+</style>
+<div id="music-player">
+    <div class="album-cover">
+      <img src="https://i.ytimg.com/vi/sokpq6badJA/maxresdefault.jpg" alt="Album Cover">
+    </div>
+    <div class="song-info">
+      <div class="title">Song Title</div>
+      <div class="artist">Artist Name</div>
+    </div>
+    <div class="controls">
+      <i class="fa fa-step-backward"></i>
+      <i class="fa fa-play"></i>
+      <i class="fa fa-pause"></i>
+      <i class="fa fa-step-forward"></i>
+    </div>
+    <div class="progress">
+      <div class="bar"></div>
+    </div>
+  </div>
+</body>
+</html>
